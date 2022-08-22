@@ -1,0 +1,6 @@
+¡¡¡CUIDADO!!!
+
+No está permitido modificar ningún fichero del proyecto PGUPV. Cuando entregues tus prácticas las compilaré contra la copia "oficial", y cualquier código que dependa de tus cambios no funcionará.
+Incluye todo tu código en el directorio de la práctica.
+
+Paco

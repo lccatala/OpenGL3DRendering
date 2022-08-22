@@ -1,0 +1,828 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de código fuente">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Archivos de código fuente\renderHelpers">
+      <UniqueIdentifier>{fc2f5799-4e52-44a6-aa22-752d604d200c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\gui">
+      <UniqueIdentifier>{dcd26a5d-e0aa-4c3f-b5fb-424980cacd43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\scenegraph">
+      <UniqueIdentifier>{bdbd71bf-d618-490b-bca7-eca1a29efcf7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\animation">
+      <UniqueIdentifier>{6075b9bb-2502-4319-ba3a-b30d3233506e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\gui">
+      <UniqueIdentifier>{20eb3e34-4f2a-4636-abec-9b596182802e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\materials">
+      <UniqueIdentifier>{08e2b3e8-a7ec-4542-860d-8c69af5e23c8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="app.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="baseRenderer.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="bindableTexture.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="bindingPoint.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="boundingVolumes.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="bufferObject.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="bufferRenderer.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="bufferTexture.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="cameraHandler.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="colorWheel.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="commandLineProcessor.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="describeScenegraph.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="drawCommand.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="eventProcessor.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="events.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="eventSource.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="fbo.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="fileStats.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="findNodeByName.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="font.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="gamepad.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="geode.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="glMatrices.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="glslInfo.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="glStateCache.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="group.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="hacks.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="image.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="indexedBindingPoint.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="interpolators.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="intervals.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="keyboard.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="log.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="matrixStack.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="media.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="mesh.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="model.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="node.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="outputStreamStats.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="pingPongBuffers.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="program.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="properties.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="query.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="rbo.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="renderable.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="renderBoundingVolumes.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="scene.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="scenegraphEditor.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="sdlAdapter.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="shader.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="shaderLibrary.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="stockMaterials.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="stockModels.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="stockModels2.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="stockPrograms.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="stopWatch.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="surfaceRevolutionGenerator.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="textOverlay.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="texture.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="texture1D.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="texture2DGeneric.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="texture3DGeneric.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="textureCubeMap.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="textureGenerator.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="textureText.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="textureVideo.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="transform.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="transformFeedbackObject.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="uboLightSources.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="uboMaterial.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="vertexArrayObject.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="videoDevice.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="videoFile.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="viewportRenderer.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="window.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="windowBuilder.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="..\librerias\glew\src\glew.c">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="renderHelpers.cpp">
+      <Filter>Archivos de código fuente\renderHelpers</Filter>
+    </ClCompile>
+    <ClCompile Include="glStats.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="fileLoader.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="assimpWrapper.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="material.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="lifetimeManager.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="uboBones.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="animationChannel.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="bone.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="skeleton.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="animationClip.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="animationNode.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="animatorController.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="fileChooserWidget.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="glVersion.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="widget.cpp">
+      <Filter>Archivos de código fuente\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="button.cpp">
+      <Filter>Archivos de código fuente\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="checkBoxWidget.cpp">
+      <Filter>Archivos de código fuente\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="colorWidget.cpp">
+      <Filter>Archivos de código fuente\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="separator.cpp">
+      <Filter>Archivos de código fuente\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="rotationWidget.cpp">
+      <Filter>Archivos de código fuente\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="progressBar.cpp">
+      <Filter>Archivos de código fuente\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="hBox.cpp">
+      <Filter>Archivos de código fuente\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="directionWidget.cpp">
+      <Filter>Archivos de código fuente\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="floatSliderWidget.cpp">
+      <Filter>Archivos de código fuente\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="label.cpp">
+      <Filter>Archivos de código fuente\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="treeWidget.cpp">
+      <Filter>Archivos de código fuente\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="intInputWidget.cpp">
+      <Filter>Archivos de código fuente\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="intWidget.cpp">
+      <Filter>Archivos de código fuente\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="intSliderWidget.cpp">
+      <Filter>Archivos de código fuente\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="ivecInputWidget.cpp">
+      <Filter>Archivos de código fuente\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="ivecSliderWidget.cpp">
+      <Filter>Archivos de código fuente\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="lineChartWidget.cpp">
+      <Filter>Archivos de código fuente\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="listBoxWidget.cpp">
+      <Filter>Archivos de código fuente\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="panel.cpp">
+      <Filter>Archivos de código fuente\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="vecSliderWidget.cpp">
+      <Filter>Archivos de código fuente\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="commonDialogs.cpp">
+      <Filter>Archivos de código fuente\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="multiListBoxWidget.cpp">
+      <Filter>Archivos de código fuente\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="pbrMaterial.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="uboPBRMaterial.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="uboPBRLightSources.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="picker.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\app.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="include\baseRenderer.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="include\bindableTexture.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="include\bindingPoint.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="include\boundingVolumes.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="include\bufferObject.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="include\bufferRenderer.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="include\bufferTexture.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="include\camera.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="include\camerahandler.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="include\colorWheel.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="include\commandLineProcessor.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="include\common.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="include\drawCommand.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="include\eventProcessor.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="include\events.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="include\eventSource.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="include\fbo.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="include\fileStats.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="include\font.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gamepad.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="include\glMatrices.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="include\glslInfo.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="include\glStateCache.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="include\hacks.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="include\HW.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="include\image.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="include\indexedBindingPoint.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="include\interpolators.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="include\intervals.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="include\keyboard.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="include\log.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="include\matrixStack.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="include\media.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="include\mesh.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="include\model.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="include\observable.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="include\outputStreamStats.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="include\palette.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PGUPV.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="include\pingPongBuffers.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="include\program.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="include\properties.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="include\query.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="include\rbo.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="include\renderable.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="include\renderer.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="include\scene.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="include\sceneGraphEditor.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="include\shader.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="include\shaderLibrary.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="include\statsClass.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stockMaterials.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stockModels.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stockModels2.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stockPrograms.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stopWatch.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="include\surfaceRevolutionGenerator.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="include\textOverlay.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="include\texture.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="include\texture1D.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="include\texture2D.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="include\texture2DArray.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="include\texture2DGeneric.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="include\texture3DGeneric.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="include\textureCubeMap.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="include\textureGenerator.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="include\textureRectangle.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="include\textureText.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="include\textureVideo.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="include\transformationWidget.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="include\transformFeedbackObject.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="include\uboLightSources.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="include\uboMaterial.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="include\uniformBufferObject.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="include\uniformWriter.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="include\utils.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="include\value.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="include\vertexArrayObject.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="include\videoDevice.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="include\videoFile.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="include\viewportRenderer.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="include\window.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="include\windowBuilder.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="include\glQuery.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="include\glStats.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="include\button.h">
+      <Filter>Archivos de encabezado\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\checkBoxWidget.h">
+      <Filter>Archivos de encabezado\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\colorWidget.h">
+      <Filter>Archivos de encabezado\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\directionWidget.h">
+      <Filter>Archivos de encabezado\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\floatSliderWidget.h">
+      <Filter>Archivos de encabezado\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\intInputWidget.h">
+      <Filter>Archivos de encabezado\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\intSliderWidget.h">
+      <Filter>Archivos de encabezado\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\intWidget.h">
+      <Filter>Archivos de encabezado\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ivecInputWidget.h">
+      <Filter>Archivos de encabezado\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ivecSliderWidget.h">
+      <Filter>Archivos de encabezado\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\label.h">
+      <Filter>Archivos de encabezado\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\lineChartWidget.h">
+      <Filter>Archivos de encabezado\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\panel.h">
+      <Filter>Archivos de encabezado\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\rotationWidget.h">
+      <Filter>Archivos de encabezado\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\separator.h">
+      <Filter>Archivos de encabezado\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\vecSliderWidget.h">
+      <Filter>Archivos de encabezado\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\listBoxWidget.h">
+      <Filter>Archivos de encabezado\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\treeWidget.h">
+      <Filter>Archivos de encabezado\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\fileLoader.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="include\assimpWrapper.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="include\findNodeByName.h">
+      <Filter>Archivos de encabezado\scenegraph</Filter>
+    </ClInclude>
+    <ClInclude Include="include\describeScenegraph.h">
+      <Filter>Archivos de encabezado\scenegraph</Filter>
+    </ClInclude>
+    <ClInclude Include="include\node.h">
+      <Filter>Archivos de encabezado\scenegraph</Filter>
+    </ClInclude>
+    <ClInclude Include="include\nodeVisitor.h">
+      <Filter>Archivos de encabezado\scenegraph</Filter>
+    </ClInclude>
+    <ClInclude Include="include\transform.h">
+      <Filter>Archivos de encabezado\scenegraph</Filter>
+    </ClInclude>
+    <ClInclude Include="include\group.h">
+      <Filter>Archivos de encabezado\scenegraph</Filter>
+    </ClInclude>
+    <ClInclude Include="include\geode.h">
+      <Filter>Archivos de encabezado\scenegraph</Filter>
+    </ClInclude>
+    <ClInclude Include="include\hbox.h">
+      <Filter>Archivos de encabezado\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\lifetimeManager.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="include\uboBones.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="include\widget.h">
+      <Filter>Archivos de encabezado\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\progressBar.h">
+      <Filter>Archivos de encabezado\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GUI3.h">
+      <Filter>Archivos de encabezado\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\animationChannel.h">
+      <Filter>Archivos de encabezado\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="include\skeleton.h">
+      <Filter>Archivos de encabezado\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="include\bone.h">
+      <Filter>Archivos de encabezado\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="include\renderBoundingVolumes.h">
+      <Filter>Archivos de encabezado\scenegraph</Filter>
+    </ClInclude>
+    <ClInclude Include="include\animationClip.h">
+      <Filter>Archivos de encabezado\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="include\animationNode.h">
+      <Filter>Archivos de encabezado\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="include\animatorController.h">
+      <Filter>Archivos de encabezado\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="include\nodeCallback.h">
+      <Filter>Archivos de encabezado\scenegraph</Filter>
+    </ClInclude>
+    <ClInclude Include="include\updateVisitor.h">
+      <Filter>Archivos de encabezado\scenegraph</Filter>
+    </ClInclude>
+    <ClInclude Include="include\fileChooserWidget.h">
+      <Filter>Archivos de encabezado\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\fileFormats.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="include\treeNodeFlags.h">
+      <Filter>Archivos de encabezado\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\commonDialogs.h">
+      <Filter>Archivos de encabezado\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\groupWidget.h">
+      <Filter>Archivos de encabezado\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\multiListBoxWidget.h">
+      <Filter>Archivos de encabezado\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\glVersion.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="include\baseMaterial.h">
+      <Filter>Archivos de encabezado\materials</Filter>
+    </ClInclude>
+    <ClInclude Include="include\material.h">
+      <Filter>Archivos de encabezado\materials</Filter>
+    </ClInclude>
+    <ClInclude Include="include\pbrMaterial.h">
+      <Filter>Archivos de encabezado\materials</Filter>
+    </ClInclude>
+    <ClInclude Include="include\uboPBRMaterial.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="include\uboPBRLightSources.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="include\lightSourceWidget.h">
+      <Filter>Archivos de encabezado\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\pbrLightSourceWidget.h">
+      <Filter>Archivos de encabezado\gui</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

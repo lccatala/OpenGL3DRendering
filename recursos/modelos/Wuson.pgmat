@@ -1,0 +1,21 @@
+# NODES
+# n_<MS3DRoot>_visible = false
+# n_<MS3DRoot>_visible = false
+
+
+# MATERIALS
+# m_DefaultMaterial_ambient = (0, 0, 0, 1)
+# m_DefaultMaterial_diffuse = (0.6, 0.6, 0.6, 1)
+# m_DefaultMaterial_specular = (0, 0, 0, 1)
+# m_DefaultMaterial_emissive = (0, 0, 0, 1)
+# m_DefaultMaterial_shininess = 0
+# m_DefaultMaterial_diffusemap[0] = <texture-filename>
+# m_DefaultMaterial_specularmap[0] = <texture-filename>
+# m_DefaultMaterial_normalmap[0] = <texture-filename>
+# m_DefaultMaterial_heightmap[0] = <texture-filename>
+# m_DefaultMaterial_opacitymap[0] = <texture-filename>
+# m_DefaultMaterial_ambientmap[0] = <texture-filename>
+
+
+
+# PBR MATERIALS

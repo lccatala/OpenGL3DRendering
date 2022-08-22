@@ -1,0 +1,2 @@
+﻿  main.cpp
+C:\Users\alpas\Desktop\practPG\ShadowMapping\main.cpp(2,10): fatal error C1083: Cannot open include file: 'glm/gtc/matrix_transform.hpp': No such file or directory

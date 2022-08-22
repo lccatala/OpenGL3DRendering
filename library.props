@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <IntDir>$(SolutionDir)$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(SolutionDir)librerias/GSL/include;$(SolutionDir)librerias/dirent-1.20.1/include;$(SolutionDir)librerias/SDL2/include;$(SolutionDir)librerias/glm;$(SolutionDir)librerias/glew/include;$(SolutionDir)librerias/assimp/include;$(SolutionDir)librerias/FreeImage/Dist/x64;$(SolutionDir)librerias/boost;$(SolutionDir)PGUPV/include;$(SolutionDir)librerias/SDL2_ttf/include;$(SolutionDir)librerias/json/;$(SolutionDir)librerias/gli;$(SolutionDir)librerias/ffmpeg/include;$(SolutionDir)librerias/guipg/include</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_UNICODE;UNICODE;GLEW_STATIC;GLM_FORCE_SILENT_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>$(SolutionDir)/librerias/SDL2/lib/x86;$(SolutionDir)/librerias/glew-1.10.0/lib\Release\Win32;$(SolutionDir)/librerias/DevIL-1.7.8\lib;$(SolutionDir)/librerias/assimp/lib;$(SolutionDir)/librerias/SDL2_ttf/lib/x86</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup />
+</Project>

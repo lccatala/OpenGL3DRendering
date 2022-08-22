@@ -1,0 +1,270 @@
+
+[Mon Aug 22 13:38:00 2022] INF: [app.cpp (86)] App created
+[Mon Aug 22 13:38:00 2022] INF: [app.cpp (106)] Iniciando aplicación C:\Users\alpas\Desktop\practPG\bin\ShadowMappingd.exe
+[Mon Aug 22 13:38:01 2022] INF: [sdlAdapter.cpp (489)] Window Properties: DOUBLE_BUFFER 
+[Mon Aug 22 13:38:01 2022] INF: [sdlAdapter.cpp (491)] SDL Window flags: SDL_WINDOW_OPENGL SDL_WINDOW_SHOWN SDL_WINDOW_RESIZABLE SDL_WINDOW_INPUT_FOCUS 
+[Mon Aug 22 13:38:01 2022] INF: [sdlAdapter.cpp (494)] SDL Context flags: SDL_GL_CONTEXT_DEBUG_FLAG 
+[Mon Aug 22 13:38:01 2022] INF: [window.cpp (128)] Ventana creada. Soporte de OpenGL: GL_VERSION_4_5
+[Mon Aug 22 13:38:01 2022] INF: [windowBuilder.cpp (75)] Información del driver:
+GL_VENDOR: NVIDIA Corporation
+GL_RENDERER: NVIDIA GeForce RTX 2070 SUPER/PCIe/SSE2
+GL_VERSION: 4.5.0 NVIDIA 516.01
+GL_SHADING_LANGUAGE_VERSION: 4.50 NVIDIA
+Tamaño del framebuffer por defecto:
+   bits de color: (8, 8, 8, 0), depth: 24, stencil: 0
+
+[Mon Aug 22 13:38:01 2022] INF: [app.cpp (161)] Library versions
+PGUPV 64 bits Debug TRUNK
+Boost: 1_69
+SDL: Runtime: 2.0.8 Compiled: 2.0.8
+Assimp: 5.0.0
+GLEW: 2.2.0
+Par Shapes: http://github.prideout.net/shapes @ August 2016
+GLI: 0.8.3
+FreeImage: 3.18.0
+ImGui: 1.82
+GLM: version 0.9.9.8
+
+[Mon Aug 22 13:38:01 2022] INF: [app.cpp (421)] Se han encontrado 1 joystick(s).
+[Mon Aug 22 13:38:01 2022] INF: [sdlAdapter.cpp (251)] Joystick (XInput Controller #1): 6 ejes, 11 botones, 1 hats, 0 trackballs
+[Mon Aug 22 13:38:01 2022] INF: [bufferObject.cpp (41)] Buffer object 1 ha reservado 3320 bytes
+[Mon Aug 22 13:38:01 2022] INF: [bufferObject.cpp (41)] Buffer object 2 ha reservado 5412 bytes
+[Mon Aug 22 13:38:01 2022] INF: [bufferObject.cpp (41)] Buffer object 3 ha reservado 5412 bytes
+[Mon Aug 22 13:38:01 2022] INF: [bufferObject.cpp (41)] Buffer object 4 ha reservado 3608 bytes
+[Mon Aug 22 13:38:01 2022] INF: [bufferObject.cpp (41)] Buffer object 5 ha reservado 288 bytes
+[Mon Aug 22 13:38:01 2022] INF: [bufferObject.cpp (41)] Buffer object 6 ha reservado 288 bytes
+[Mon Aug 22 13:38:01 2022] INF: [bufferObject.cpp (41)] Buffer object 7 ha reservado 192 bytes
+[Mon Aug 22 13:38:01 2022] INF: [bufferObject.cpp (41)] Buffer object 8 ha reservado 4800 bytes
+[Mon Aug 22 13:38:01 2022] INF: [bufferObject.cpp (41)] Buffer object 9 ha reservado 4800 bytes
+[Mon Aug 22 13:38:01 2022] INF: [bufferObject.cpp (41)] Buffer object 10 ha reservado 3200 bytes
+[Mon Aug 22 13:38:01 2022] INF: [bufferObject.cpp (41)] Buffer object 11 ha reservado 3116 bytes
+[Mon Aug 22 13:38:01 2022] INF: [fbo.cpp (21)] Framebuffer object 1 creado
+[Mon Aug 22 13:38:01 2022] INF: [bufferObject.cpp (41)] Buffer object 12 ha reservado 260 bytes
+[Mon Aug 22 13:38:01 2022] INF: [bufferObject.cpp (41)] Buffer object 13 ha reservado 432 bytes
+[Mon Aug 22 13:38:01 2022] INF: [bufferObject.cpp (41)] Buffer object 14 ha reservado 432 bytes
+[Mon Aug 22 13:38:01 2022] INF: [bufferObject.cpp (41)] Buffer object 15 ha reservado 288 bytes
+[Mon Aug 22 13:38:01 2022] INF: [bufferObject.cpp (41)] Buffer object 16 ha reservado 48 bytes
+[Mon Aug 22 13:38:01 2022] INF: [bufferObject.cpp (41)] Buffer object 17 ha reservado 32 bytes
+[Mon Aug 22 13:38:01 2022] INF: [bindableTexture.cpp (42)] Textura de tipo GL_TEXTURE_2D creada con id 1
+[Mon Aug 22 13:38:01 2022] INF: [app.cpp (665)] Unidad de textura reservada para PGUPV: 191
+[Mon Aug 22 13:38:01 2022] INF: [bufferObject.cpp (41)] Buffer object 18 ha reservado 80 bytes
+[Mon Aug 22 13:38:01 2022] INF: [uboMaterial.cpp (54)] UBO Material creado
+[Mon Aug 22 13:38:01 2022] INF: [bufferObject.cpp (41)] Buffer object 19 ha reservado 80 bytes
+[Mon Aug 22 13:38:01 2022] INF: [uboMaterial.cpp (54)] UBO Material creado
+[Mon Aug 22 13:38:01 2022] INF: [bufferObject.cpp (41)] Buffer object 20 ha reservado 80 bytes
+[Mon Aug 22 13:38:01 2022] INF: [uboMaterial.cpp (54)] UBO Material creado
+[Mon Aug 22 13:38:01 2022] INF: [bufferObject.cpp (41)] Buffer object 21 ha reservado 80 bytes
+[Mon Aug 22 13:38:01 2022] INF: [uboMaterial.cpp (54)] UBO Material creado
+[Mon Aug 22 13:38:01 2022] INF: [assimpWrapper.cpp (95)] El modelo ../recursos/modelos/teapot.3ds no tiene animaciones
+[Mon Aug 22 13:38:01 2022] INF: [bufferObject.cpp (41)] Buffer object 22 ha reservado 80 bytes
+[Mon Aug 22 13:38:01 2022] INF: [uboMaterial.cpp (54)] UBO Material creado
+[Mon Aug 22 13:38:01 2022] INF: [assimpWrapper.cpp (490)] Material: %%%DEFAULT
+Amb: (0, 0, 0) Dif: (0.3, 0.3, 0.3) Esp: (0, 0, 0) Emi: (0, 0, 0) 
+Shading model *ignored*: Simple Gouraud shading
+Textures:
+ TextureCount: 00000000000000000000000000000000
+[Mon Aug 22 13:38:01 2022] INF: [assimpWrapper.cpp (195)] Mesh #0 (0). Tris: 3080. Vtx: 1597 with normals WITHOUT tangents
+[Mon Aug 22 13:38:01 2022] INF: [bufferObject.cpp (41)] Buffer object 23 ha reservado 36960 bytes
+[Mon Aug 22 13:38:01 2022] INF: [bufferObject.cpp (41)] Buffer object 24 ha reservado 19164 bytes
+[Mon Aug 22 13:38:01 2022] INF: [bufferObject.cpp (41)] Buffer object 25 ha reservado 19164 bytes
+[Mon Aug 22 13:38:01 2022] INF: [fileLoader.cpp (422)] Grafo de escena:
+Transform (<3DSDummyRoot>) BB: [-1.99513 -> 2.21556, 1.0091e-09 -> 2.06155, -1.34067 -> 1.27718] 1 hijos 
+Mat: [
+1 0 0 0
+0 0 1 0
+0 -1 0 0
+0 0 0 1]
+  Transform (3DSMesh_0) BB: [-1.99513 -> 2.21556, -1.27718 -> 1.34067, 1.0091e-09 -> 2.06155] 1 hijos 
+  Mat: [
+  1 0 0 0
+  0 1 0 0
+  0 0 1 0
+  0 0 0 1]
+    Geode (3DSMesh_0) BB: [-1.99513 -> 2.21556, -1.27718 -> 1.34067, 1.0091e-09 -> 2.06155] 1 mallas { [0] 1597 vert 1 draws}
+
+[Mon Aug 22 13:38:01 2022] INF: [bufferObject.cpp (41)] Buffer object 26 ha reservado 368 bytes
+[Mon Aug 22 13:38:01 2022] INF: [glMatrices.cpp (160)] UBO GLMatrices creado
+[Mon Aug 22 13:38:01 2022] INF: [bufferObject.cpp (41)] Buffer object 27 ha reservado 576 bytes
+[Mon Aug 22 13:38:01 2022] INF: [uboLightSources.cpp (86)] UBO LightSources creado
+[Mon Aug 22 13:38:01 2022] INF: [shader.cpp (169)] Compilando ../ShadowMapping/p9.vert
+[Mon Aug 22 13:38:01 2022] INF: [shader.cpp (169)] Compilando ../ShadowMapping/p9.frag
+[Mon Aug 22 13:38:01 2022] INF: [bufferObject.cpp (41)] Buffer object 28 ha reservado 368 bytes
+[Mon Aug 22 13:38:01 2022] INF: [glMatrices.cpp (160)] UBO GLMatrices creado
+[Mon Aug 22 13:38:01 2022] INF: [shader.cpp (169)] Compilando ../ShadowMapping/shadowMap.vert
+[Mon Aug 22 13:38:01 2022] INF: [shader.cpp (169)] Compilando ../ShadowMapping/shadowMap.frag
+[Mon Aug 22 13:38:01 2022] INF: [shader.cpp (169)] Compilando ../ShadowMapping/zbuffershow.vert
+[Mon Aug 22 13:38:01 2022] INF: [shader.cpp (169)] Compilando ../ShadowMapping/zbuffershow.frag
+[Mon Aug 22 13:38:01 2022] WAR: [window.cpp (619)] (!! ) GL Debug: (PERFORMANCE) Program/shader state performance warning: Vertex shader in program 9 is being recompiled based on GL state.
+[Mon Aug 22 13:38:01 2022] WAR: [window.cpp (619)] (!! ) GL Debug: (PERFORMANCE) Program/shader state performance warning: Vertex shader in program 9 is being recompiled based on GL state, and was not found in the disk cache
+[Mon Aug 22 13:38:01 2022] INF: [stockPrograms.h (36)] StockProgram creado
+[Mon Aug 22 13:38:01 2022] INF: [shader.cpp (169)] Compilando 
+[Mon Aug 22 13:38:01 2022] INF: [shader.cpp (169)] Compilando 
+[Mon Aug 22 13:38:01 2022] WAR: [window.cpp (619)] (!! ) GL Debug: (PERFORMANCE) Program/shader state performance warning: Vertex shader in program 12 is being recompiled based on GL state.
+[Mon Aug 22 13:38:01 2022] WAR: [window.cpp (619)] (!! ) GL Debug: (PERFORMANCE) Program/shader state performance warning: Vertex shader in program 12 is being recompiled based on GL state, and was not found in the disk cache
+[Mon Aug 22 13:38:28 2022] INF: [app.cpp (599)] Aplicación terminada normalmente
+[Mon Aug 22 13:38:28 2022] INF: [bufferObject.cpp (19)] Buffer object 16 (Vertices) destruído
+[Mon Aug 22 13:38:28 2022] INF: [bufferObject.cpp (19)] Buffer object 17 (Coord. de textura (0)) destruído
+[Mon Aug 22 13:38:28 2022] INF: [bufferObject.cpp (19)] Buffer object 13 (Vertices) destruído
+[Mon Aug 22 13:38:28 2022] INF: [bufferObject.cpp (19)] Buffer object 14 (Normales) destruído
+[Mon Aug 22 13:38:28 2022] INF: [bufferObject.cpp (19)] Buffer object 12 (Indices) destruído
+[Mon Aug 22 13:38:28 2022] INF: [bufferObject.cpp (19)] Buffer object 15 (Coord. de textura (0)) destruído
+[Mon Aug 22 13:38:28 2022] INF: [fbo.cpp (44)] Framebuffer object 1 destruído
+[Mon Aug 22 13:38:28 2022] INF: [bindableTexture.cpp (48)] Textura con id 1 destruída
+[Mon Aug 22 13:38:28 2022] INF: [bufferObject.cpp (19)] Buffer object 21 (Material) destruído
+[Mon Aug 22 13:38:28 2022] INF: [bufferObject.cpp (19)] Buffer object 8 (Vertices) destruído
+[Mon Aug 22 13:38:28 2022] INF: [bufferObject.cpp (19)] Buffer object 9 (Normales) destruído
+[Mon Aug 22 13:38:28 2022] INF: [bufferObject.cpp (19)] Buffer object 11 (Indices) destruído
+[Mon Aug 22 13:38:28 2022] INF: [bufferObject.cpp (19)] Buffer object 10 (Coord. de textura (0)) destruído
+[Mon Aug 22 13:38:28 2022] INF: [bufferObject.cpp (19)] Buffer object 20 (Material) destruído
+[Mon Aug 22 13:38:28 2022] INF: [bufferObject.cpp (19)] Buffer object 6 (Vertices) destruído
+[Mon Aug 22 13:38:28 2022] INF: [bufferObject.cpp (19)] Buffer object 5 (Normales) destruído
+[Mon Aug 22 13:38:28 2022] INF: [bufferObject.cpp (19)] Buffer object 7 (Coord. de textura (0)) destruído
+[Mon Aug 22 13:38:28 2022] INF: [bufferObject.cpp (19)] Buffer object 18 (Material) destruído
+[Mon Aug 22 13:38:28 2022] INF: [bufferObject.cpp (19)] Buffer object 2 (Vertices) destruído
+[Mon Aug 22 13:38:28 2022] INF: [bufferObject.cpp (19)] Buffer object 3 (Normales) destruído
+[Mon Aug 22 13:38:28 2022] INF: [bufferObject.cpp (19)] Buffer object 1 (Indices) destruído
+[Mon Aug 22 13:38:28 2022] INF: [bufferObject.cpp (19)] Buffer object 4 (Coord. de textura (0)) destruído
+[Mon Aug 22 13:38:28 2022] INF: [bufferObject.cpp (19)] Buffer object 22 (Material) destruído
+[Mon Aug 22 13:38:28 2022] INF: [bufferObject.cpp (19)] Buffer object 19 (Material) destruído
+[Mon Aug 22 13:38:28 2022] INF: [bufferObject.cpp (19)] Buffer object 24 (Vertices) destruído
+[Mon Aug 22 13:38:28 2022] INF: [bufferObject.cpp (19)] Buffer object 25 (Normales) destruído
+[Mon Aug 22 13:38:28 2022] INF: [bufferObject.cpp (19)] Buffer object 23 (Indices) destruído
+[Mon Aug 22 13:38:28 2022] INF: [bufferObject.cpp (19)] Buffer object 27 (Lights) destruído
+[Mon Aug 22 13:38:28 2022] INF: [bufferObject.cpp (19)] Buffer object 28 (GLMatrices) destruído
+[Mon Aug 22 13:38:28 2022] INF: [bufferObject.cpp (19)] Buffer object 26 (GLMatrices) destruído
+[Mon Aug 22 13:38:29 2022] INF: [sdlAdapter.cpp (257)] Destruyendo el joystick XInput Controller #1
+[Mon Aug 22 13:38:29 2022] INF: [app.cpp (93)] App destroyed
+[Mon Aug 22 13:38:29 2022] INF: [log.cpp (46)] Closing Log
+
+[Mon Aug 22 13:39:22 2022] INF: [app.cpp (86)] App created
+[Mon Aug 22 13:39:22 2022] INF: [app.cpp (106)] Iniciando aplicación C:\Users\alpas\Desktop\practPG\bin\ShadowMappingd.exe
+[Mon Aug 22 13:39:22 2022] INF: [sdlAdapter.cpp (489)] Window Properties: DOUBLE_BUFFER 
+[Mon Aug 22 13:39:22 2022] INF: [sdlAdapter.cpp (491)] SDL Window flags: SDL_WINDOW_OPENGL SDL_WINDOW_SHOWN SDL_WINDOW_RESIZABLE SDL_WINDOW_INPUT_FOCUS 
+[Mon Aug 22 13:39:22 2022] INF: [sdlAdapter.cpp (494)] SDL Context flags: SDL_GL_CONTEXT_DEBUG_FLAG 
+[Mon Aug 22 13:39:22 2022] INF: [window.cpp (128)] Ventana creada. Soporte de OpenGL: GL_VERSION_4_5
+[Mon Aug 22 13:39:22 2022] INF: [windowBuilder.cpp (75)] Información del driver:
+GL_VENDOR: NVIDIA Corporation
+GL_RENDERER: NVIDIA GeForce RTX 2070 SUPER/PCIe/SSE2
+GL_VERSION: 4.5.0 NVIDIA 516.01
+GL_SHADING_LANGUAGE_VERSION: 4.50 NVIDIA
+Tamaño del framebuffer por defecto:
+   bits de color: (8, 8, 8, 0), depth: 24, stencil: 0
+
+[Mon Aug 22 13:39:22 2022] INF: [app.cpp (161)] Library versions
+PGUPV 64 bits Debug TRUNK
+Boost: 1_69
+SDL: Runtime: 2.0.8 Compiled: 2.0.8
+Assimp: 5.0.0
+GLEW: 2.2.0
+Par Shapes: http://github.prideout.net/shapes @ August 2016
+GLI: 0.8.3
+FreeImage: 3.18.0
+ImGui: 1.82
+GLM: version 0.9.9.8
+
+[Mon Aug 22 13:39:22 2022] INF: [app.cpp (421)] Se han encontrado 1 joystick(s).
+[Mon Aug 22 13:39:22 2022] INF: [sdlAdapter.cpp (251)] Joystick (XInput Controller #1): 6 ejes, 11 botones, 1 hats, 0 trackballs
+[Mon Aug 22 13:39:22 2022] INF: [bufferObject.cpp (41)] Buffer object 1 ha reservado 3320 bytes
+[Mon Aug 22 13:39:22 2022] INF: [bufferObject.cpp (41)] Buffer object 2 ha reservado 5412 bytes
+[Mon Aug 22 13:39:22 2022] INF: [bufferObject.cpp (41)] Buffer object 3 ha reservado 5412 bytes
+[Mon Aug 22 13:39:22 2022] INF: [bufferObject.cpp (41)] Buffer object 4 ha reservado 3608 bytes
+[Mon Aug 22 13:39:22 2022] INF: [bufferObject.cpp (41)] Buffer object 5 ha reservado 288 bytes
+[Mon Aug 22 13:39:22 2022] INF: [bufferObject.cpp (41)] Buffer object 6 ha reservado 288 bytes
+[Mon Aug 22 13:39:22 2022] INF: [bufferObject.cpp (41)] Buffer object 7 ha reservado 192 bytes
+[Mon Aug 22 13:39:22 2022] INF: [bufferObject.cpp (41)] Buffer object 8 ha reservado 4800 bytes
+[Mon Aug 22 13:39:22 2022] INF: [bufferObject.cpp (41)] Buffer object 9 ha reservado 4800 bytes
+[Mon Aug 22 13:39:22 2022] INF: [bufferObject.cpp (41)] Buffer object 10 ha reservado 3200 bytes
+[Mon Aug 22 13:39:22 2022] INF: [bufferObject.cpp (41)] Buffer object 11 ha reservado 3116 bytes
+[Mon Aug 22 13:39:22 2022] INF: [fbo.cpp (21)] Framebuffer object 1 creado
+[Mon Aug 22 13:39:22 2022] INF: [bufferObject.cpp (41)] Buffer object 12 ha reservado 260 bytes
+[Mon Aug 22 13:39:22 2022] INF: [bufferObject.cpp (41)] Buffer object 13 ha reservado 432 bytes
+[Mon Aug 22 13:39:22 2022] INF: [bufferObject.cpp (41)] Buffer object 14 ha reservado 432 bytes
+[Mon Aug 22 13:39:22 2022] INF: [bufferObject.cpp (41)] Buffer object 15 ha reservado 288 bytes
+[Mon Aug 22 13:39:22 2022] INF: [bufferObject.cpp (41)] Buffer object 16 ha reservado 48 bytes
+[Mon Aug 22 13:39:22 2022] INF: [bufferObject.cpp (41)] Buffer object 17 ha reservado 32 bytes
+[Mon Aug 22 13:39:22 2022] INF: [bindableTexture.cpp (42)] Textura de tipo GL_TEXTURE_2D creada con id 1
+[Mon Aug 22 13:39:22 2022] INF: [app.cpp (665)] Unidad de textura reservada para PGUPV: 191
+[Mon Aug 22 13:39:22 2022] INF: [bufferObject.cpp (41)] Buffer object 18 ha reservado 80 bytes
+[Mon Aug 22 13:39:22 2022] INF: [uboMaterial.cpp (54)] UBO Material creado
+[Mon Aug 22 13:39:22 2022] INF: [bufferObject.cpp (41)] Buffer object 19 ha reservado 80 bytes
+[Mon Aug 22 13:39:22 2022] INF: [uboMaterial.cpp (54)] UBO Material creado
+[Mon Aug 22 13:39:22 2022] INF: [bufferObject.cpp (41)] Buffer object 20 ha reservado 80 bytes
+[Mon Aug 22 13:39:22 2022] INF: [uboMaterial.cpp (54)] UBO Material creado
+[Mon Aug 22 13:39:22 2022] INF: [bufferObject.cpp (41)] Buffer object 21 ha reservado 80 bytes
+[Mon Aug 22 13:39:22 2022] INF: [uboMaterial.cpp (54)] UBO Material creado
+[Mon Aug 22 13:39:22 2022] INF: [assimpWrapper.cpp (95)] El modelo ../recursos/modelos/teapot.3ds no tiene animaciones
+[Mon Aug 22 13:39:22 2022] INF: [bufferObject.cpp (41)] Buffer object 22 ha reservado 80 bytes
+[Mon Aug 22 13:39:22 2022] INF: [uboMaterial.cpp (54)] UBO Material creado
+[Mon Aug 22 13:39:22 2022] INF: [assimpWrapper.cpp (490)] Material: %%%DEFAULT
+Amb: (0, 0, 0) Dif: (0.3, 0.3, 0.3) Esp: (0, 0, 0) Emi: (0, 0, 0) 
+Shading model *ignored*: Simple Gouraud shading
+Textures:
+ TextureCount: 00000000000000000000000000000000
+[Mon Aug 22 13:39:22 2022] INF: [assimpWrapper.cpp (195)] Mesh #0 (0). Tris: 3080. Vtx: 1597 with normals WITHOUT tangents
+[Mon Aug 22 13:39:22 2022] INF: [bufferObject.cpp (41)] Buffer object 23 ha reservado 36960 bytes
+[Mon Aug 22 13:39:22 2022] INF: [bufferObject.cpp (41)] Buffer object 24 ha reservado 19164 bytes
+[Mon Aug 22 13:39:22 2022] INF: [bufferObject.cpp (41)] Buffer object 25 ha reservado 19164 bytes
+[Mon Aug 22 13:39:22 2022] INF: [fileLoader.cpp (422)] Grafo de escena:
+Transform (<3DSDummyRoot>) BB: [-1.99513 -> 2.21556, 1.0091e-09 -> 2.06155, -1.34067 -> 1.27718] 1 hijos 
+Mat: [
+1 0 0 0
+0 0 1 0
+0 -1 0 0
+0 0 0 1]
+  Transform (3DSMesh_0) BB: [-1.99513 -> 2.21556, -1.27718 -> 1.34067, 1.0091e-09 -> 2.06155] 1 hijos 
+  Mat: [
+  1 0 0 0
+  0 1 0 0
+  0 0 1 0
+  0 0 0 1]
+    Geode (3DSMesh_0) BB: [-1.99513 -> 2.21556, -1.27718 -> 1.34067, 1.0091e-09 -> 2.06155] 1 mallas { [0] 1597 vert 1 draws}
+
+[Mon Aug 22 13:39:22 2022] INF: [bufferObject.cpp (41)] Buffer object 26 ha reservado 368 bytes
+[Mon Aug 22 13:39:22 2022] INF: [glMatrices.cpp (160)] UBO GLMatrices creado
+[Mon Aug 22 13:39:22 2022] INF: [bufferObject.cpp (41)] Buffer object 27 ha reservado 576 bytes
+[Mon Aug 22 13:39:22 2022] INF: [uboLightSources.cpp (86)] UBO LightSources creado
+[Mon Aug 22 13:39:22 2022] INF: [shader.cpp (169)] Compilando ../ShadowMapping/p9.vert
+[Mon Aug 22 13:39:22 2022] INF: [shader.cpp (169)] Compilando ../ShadowMapping/p9.frag
+[Mon Aug 22 13:39:22 2022] INF: [bufferObject.cpp (41)] Buffer object 28 ha reservado 368 bytes
+[Mon Aug 22 13:39:22 2022] INF: [glMatrices.cpp (160)] UBO GLMatrices creado
+[Mon Aug 22 13:39:22 2022] INF: [shader.cpp (169)] Compilando ../ShadowMapping/shadowMap.vert
+[Mon Aug 22 13:39:22 2022] INF: [shader.cpp (169)] Compilando ../ShadowMapping/shadowMap.frag
+[Mon Aug 22 13:39:22 2022] INF: [shader.cpp (169)] Compilando ../ShadowMapping/zbuffershow.vert
+[Mon Aug 22 13:39:22 2022] INF: [shader.cpp (169)] Compilando ../ShadowMapping/zbuffershow.frag
+[Mon Aug 22 13:39:22 2022] INF: [stockPrograms.h (36)] StockProgram creado
+[Mon Aug 22 13:39:22 2022] INF: [shader.cpp (169)] Compilando 
+[Mon Aug 22 13:39:22 2022] INF: [shader.cpp (169)] Compilando 
+[Mon Aug 22 13:39:23 2022] INF: [app.cpp (599)] Aplicación terminada normalmente
+[Mon Aug 22 13:39:23 2022] INF: [bufferObject.cpp (19)] Buffer object 16 (Vertices) destruído
+[Mon Aug 22 13:39:23 2022] INF: [bufferObject.cpp (19)] Buffer object 17 (Coord. de textura (0)) destruído
+[Mon Aug 22 13:39:23 2022] INF: [bufferObject.cpp (19)] Buffer object 13 (Vertices) destruído
+[Mon Aug 22 13:39:23 2022] INF: [bufferObject.cpp (19)] Buffer object 14 (Normales) destruído
+[Mon Aug 22 13:39:23 2022] INF: [bufferObject.cpp (19)] Buffer object 12 (Indices) destruído
+[Mon Aug 22 13:39:23 2022] INF: [bufferObject.cpp (19)] Buffer object 15 (Coord. de textura (0)) destruído
+[Mon Aug 22 13:39:23 2022] INF: [fbo.cpp (44)] Framebuffer object 1 destruído
+[Mon Aug 22 13:39:23 2022] INF: [bindableTexture.cpp (48)] Textura con id 1 destruída
+[Mon Aug 22 13:39:23 2022] INF: [bufferObject.cpp (19)] Buffer object 21 (Material) destruído
+[Mon Aug 22 13:39:23 2022] INF: [bufferObject.cpp (19)] Buffer object 8 (Vertices) destruído
+[Mon Aug 22 13:39:23 2022] INF: [bufferObject.cpp (19)] Buffer object 9 (Normales) destruído
+[Mon Aug 22 13:39:23 2022] INF: [bufferObject.cpp (19)] Buffer object 11 (Indices) destruído
+[Mon Aug 22 13:39:23 2022] INF: [bufferObject.cpp (19)] Buffer object 10 (Coord. de textura (0)) destruído
+[Mon Aug 22 13:39:23 2022] INF: [bufferObject.cpp (19)] Buffer object 20 (Material) destruído
+[Mon Aug 22 13:39:23 2022] INF: [bufferObject.cpp (19)] Buffer object 6 (Vertices) destruído
+[Mon Aug 22 13:39:23 2022] INF: [bufferObject.cpp (19)] Buffer object 5 (Normales) destruído
+[Mon Aug 22 13:39:23 2022] INF: [bufferObject.cpp (19)] Buffer object 7 (Coord. de textura (0)) destruído
+[Mon Aug 22 13:39:23 2022] INF: [bufferObject.cpp (19)] Buffer object 18 (Material) destruído
+[Mon Aug 22 13:39:23 2022] INF: [bufferObject.cpp (19)] Buffer object 2 (Vertices) destruído
+[Mon Aug 22 13:39:23 2022] INF: [bufferObject.cpp (19)] Buffer object 3 (Normales) destruído
+[Mon Aug 22 13:39:23 2022] INF: [bufferObject.cpp (19)] Buffer object 1 (Indices) destruído
+[Mon Aug 22 13:39:23 2022] INF: [bufferObject.cpp (19)] Buffer object 4 (Coord. de textura (0)) destruído
+[Mon Aug 22 13:39:23 2022] INF: [bufferObject.cpp (19)] Buffer object 22 (Material) destruído
+[Mon Aug 22 13:39:23 2022] INF: [bufferObject.cpp (19)] Buffer object 19 (Material) destruído
+[Mon Aug 22 13:39:23 2022] INF: [bufferObject.cpp (19)] Buffer object 24 (Vertices) destruído
+[Mon Aug 22 13:39:23 2022] INF: [bufferObject.cpp (19)] Buffer object 25 (Normales) destruído
+[Mon Aug 22 13:39:23 2022] INF: [bufferObject.cpp (19)] Buffer object 23 (Indices) destruído
+[Mon Aug 22 13:39:23 2022] INF: [bufferObject.cpp (19)] Buffer object 27 (Lights) destruído
+[Mon Aug 22 13:39:23 2022] INF: [bufferObject.cpp (19)] Buffer object 28 (GLMatrices) destruído
+[Mon Aug 22 13:39:23 2022] INF: [bufferObject.cpp (19)] Buffer object 26 (GLMatrices) destruído
+[Mon Aug 22 13:39:23 2022] INF: [sdlAdapter.cpp (257)] Destruyendo el joystick XInput Controller #1
+[Mon Aug 22 13:39:23 2022] INF: [app.cpp (93)] App destroyed
+[Mon Aug 22 13:39:23 2022] INF: [log.cpp (46)] Closing Log

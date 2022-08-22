@@ -1,0 +1,141 @@
+
+[Mon Mar 14 17:59:44 2022] INF: [app.cpp (86)] App created
+[Mon Mar 14 17:59:44 2022] INF: [app.cpp (106)] Iniciando aplicación C:\Users\alpas\Desktop\practPG\bin\p0d.exe
+[Mon Mar 14 17:59:45 2022] INF: [sdlAdapter.cpp (489)] Window Properties: DOUBLE_BUFFER 
+[Mon Mar 14 17:59:45 2022] INF: [sdlAdapter.cpp (491)] SDL Window flags: SDL_WINDOW_OPENGL SDL_WINDOW_SHOWN SDL_WINDOW_RESIZABLE SDL_WINDOW_INPUT_FOCUS 
+[Mon Mar 14 17:59:45 2022] INF: [sdlAdapter.cpp (494)] SDL Context flags: SDL_GL_CONTEXT_DEBUG_FLAG 
+[Mon Mar 14 17:59:45 2022] INF: [window.cpp (128)] Ventana creada. Soporte de OpenGL: GL_VERSION_4_5
+[Mon Mar 14 17:59:45 2022] INF: [windowBuilder.cpp (75)] Información del driver:
+GL_VENDOR: NVIDIA Corporation
+GL_RENDERER: GeForce GTX 1060 6GB/PCIe/SSE2
+GL_VERSION: 4.5.0 NVIDIA 456.71
+GL_SHADING_LANGUAGE_VERSION: 4.50 NVIDIA
+Tamaño del framebuffer por defecto:
+   bits de color: (8, 8, 8, 0), depth: 0, stencil: 0
+
+[Mon Mar 14 17:59:45 2022] INF: [app.cpp (161)] Library versions
+PGUPV 64 bits Debug Revision: 2156
+Boost: 1_69
+SDL: Runtime: 2.0.8 Compiled: 2.0.8
+Assimp: 5.0.0
+GLEW: 2.2.0
+Par Shapes: http://github.prideout.net/shapes @ August 2016
+GLI: 0.8.3
+FreeImage: 3.18.0
+ImGui: 1.82
+GLM: version 0.9.9.8
+
+[Mon Mar 14 17:59:45 2022] INF: [app.cpp (421)] No se han encontrado joysticks en el sistema
+[Mon Mar 14 17:59:45 2022] INF: [shader.cpp (169)] Compilando triangles.vert
+[Mon Mar 14 17:59:45 2022] INF: [shader.cpp (169)] Compilando triangles.frag
+[Mon Mar 14 17:59:45 2022] INF: [bufferObject.cpp (41)] Buffer object 1 ha reservado 72 bytes
+[Mon Mar 14 17:59:47 2022] ERR: [window.cpp (721)] Released button with no active renderer. Ignoring...
+[Mon Mar 14 17:59:48 2022] INF: [app.cpp (602)] Aplicación terminada normalmente
+[Mon Mar 14 17:59:48 2022] INF: [bufferObject.cpp (19)] Buffer object 1 (Vertices) destruído
+[Mon Mar 14 17:59:48 2022] INF: [app.cpp (93)] App destroyed
+[Mon Mar 14 17:59:48 2022] INF: [log.cpp (46)] Closing Log
+
+[Mon Mar 21 02:35:06 2022] INF: [app.cpp (86)] App created
+[Mon Mar 21 02:35:06 2022] INF: [app.cpp (106)] Iniciando aplicación C:\Users\alpas\Desktop\pracPG\bin\p0d.exe
+[Mon Mar 21 02:35:07 2022] INF: [sdlAdapter.cpp (489)] Window Properties: DOUBLE_BUFFER 
+[Mon Mar 21 02:35:07 2022] INF: [sdlAdapter.cpp (491)] SDL Window flags: SDL_WINDOW_OPENGL SDL_WINDOW_SHOWN SDL_WINDOW_RESIZABLE SDL_WINDOW_INPUT_FOCUS 
+[Mon Mar 21 02:35:07 2022] INF: [sdlAdapter.cpp (494)] SDL Context flags: SDL_GL_CONTEXT_DEBUG_FLAG 
+[Mon Mar 21 02:35:07 2022] INF: [window.cpp (128)] Ventana creada. Soporte de OpenGL: GL_VERSION_4_5
+[Mon Mar 21 02:35:07 2022] INF: [windowBuilder.cpp (75)] Información del driver:
+GL_VENDOR: NVIDIA Corporation
+GL_RENDERER: GeForce GTX 1060 6GB/PCIe/SSE2
+GL_VERSION: 4.5.0 NVIDIA 456.71
+GL_SHADING_LANGUAGE_VERSION: 4.50 NVIDIA
+Tamaño del framebuffer por defecto:
+   bits de color: (8, 8, 8, 0), depth: 0, stencil: 0
+
+[Mon Mar 21 02:35:07 2022] INF: [app.cpp (161)] Library versions
+PGUPV 64 bits Debug Revision: 2156
+Boost: 1_69
+SDL: Runtime: 2.0.8 Compiled: 2.0.8
+Assimp: 5.0.0
+GLEW: 2.2.0
+Par Shapes: http://github.prideout.net/shapes @ August 2016
+GLI: 0.8.3
+FreeImage: 3.18.0
+ImGui: 1.82
+GLM: version 0.9.9.8
+
+[Mon Mar 21 02:35:07 2022] INF: [app.cpp (421)] No se han encontrado joysticks en el sistema
+[Mon Mar 21 02:35:07 2022] INF: [shader.cpp (169)] Compilando triangles.vert
+[Mon Mar 21 02:35:07 2022] INF: [shader.cpp (169)] Compilando triangles.frag
+[Mon Mar 21 02:35:07 2022] INF: [bufferObject.cpp (41)] Buffer object 1 ha reservado 72 bytes
+[Mon Mar 21 02:35:11 2022] INF: [app.cpp (602)] Aplicación terminada normalmente
+[Mon Mar 21 02:35:11 2022] INF: [bufferObject.cpp (19)] Buffer object 1 (Vertices) destruído
+[Mon Mar 21 02:35:11 2022] INF: [app.cpp (93)] App destroyed
+[Mon Mar 21 02:35:11 2022] INF: [log.cpp (46)] Closing Log
+
+[Mon Mar 21 03:09:20 2022] INF: [app.cpp (86)] App created
+[Mon Mar 21 03:09:20 2022] INF: [app.cpp (106)] Iniciando aplicación C:\Users\alpas\Desktop\pracPG\bin\p0d.exe
+[Mon Mar 21 03:09:20 2022] INF: [sdlAdapter.cpp (489)] Window Properties: DOUBLE_BUFFER 
+[Mon Mar 21 03:09:20 2022] INF: [sdlAdapter.cpp (491)] SDL Window flags: SDL_WINDOW_OPENGL SDL_WINDOW_SHOWN SDL_WINDOW_RESIZABLE SDL_WINDOW_INPUT_FOCUS 
+[Mon Mar 21 03:09:20 2022] INF: [sdlAdapter.cpp (494)] SDL Context flags: SDL_GL_CONTEXT_DEBUG_FLAG 
+[Mon Mar 21 03:09:20 2022] INF: [window.cpp (128)] Ventana creada. Soporte de OpenGL: GL_VERSION_4_5
+[Mon Mar 21 03:09:20 2022] INF: [windowBuilder.cpp (75)] Información del driver:
+GL_VENDOR: NVIDIA Corporation
+GL_RENDERER: GeForce GTX 1060 6GB/PCIe/SSE2
+GL_VERSION: 4.5.0 NVIDIA 456.71
+GL_SHADING_LANGUAGE_VERSION: 4.50 NVIDIA
+Tamaño del framebuffer por defecto:
+   bits de color: (8, 8, 8, 0), depth: 0, stencil: 0
+
+[Mon Mar 21 03:09:20 2022] INF: [app.cpp (161)] Library versions
+PGUPV 64 bits Debug Revision: 2156
+Boost: 1_69
+SDL: Runtime: 2.0.8 Compiled: 2.0.8
+Assimp: 5.0.0
+GLEW: 2.2.0
+Par Shapes: http://github.prideout.net/shapes @ August 2016
+GLI: 0.8.3
+FreeImage: 3.18.0
+ImGui: 1.82
+GLM: version 0.9.9.8
+
+[Mon Mar 21 03:09:20 2022] INF: [app.cpp (421)] No se han encontrado joysticks en el sistema
+[Mon Mar 21 03:09:20 2022] INF: [shader.cpp (169)] Compilando triangles.vert
+[Mon Mar 21 03:09:20 2022] INF: [shader.cpp (169)] Compilando triangles.frag
+[Mon Mar 21 03:09:20 2022] INF: [bufferObject.cpp (41)] Buffer object 1 ha reservado 72 bytes
+[Mon Mar 21 03:09:53 2022] INF: [app.cpp (602)] Aplicación terminada normalmente
+[Mon Mar 21 03:09:53 2022] INF: [bufferObject.cpp (19)] Buffer object 1 (Vertices) destruído
+[Mon Mar 21 03:09:53 2022] INF: [app.cpp (93)] App destroyed
+[Mon Mar 21 03:09:53 2022] INF: [log.cpp (46)] Closing Log
+
+[Mon Mar 21 03:11:11 2022] INF: [app.cpp (86)] App created
+[Mon Mar 21 03:11:11 2022] INF: [app.cpp (106)] Iniciando aplicación C:\Users\alpas\Desktop\pracPG\bin\p0d.exe
+[Mon Mar 21 03:11:11 2022] INF: [sdlAdapter.cpp (489)] Window Properties: DOUBLE_BUFFER 
+[Mon Mar 21 03:11:11 2022] INF: [sdlAdapter.cpp (491)] SDL Window flags: SDL_WINDOW_OPENGL SDL_WINDOW_SHOWN SDL_WINDOW_RESIZABLE SDL_WINDOW_INPUT_FOCUS 
+[Mon Mar 21 03:11:11 2022] INF: [sdlAdapter.cpp (494)] SDL Context flags: SDL_GL_CONTEXT_DEBUG_FLAG 
+[Mon Mar 21 03:11:11 2022] INF: [window.cpp (128)] Ventana creada. Soporte de OpenGL: GL_VERSION_4_5
+[Mon Mar 21 03:11:11 2022] INF: [windowBuilder.cpp (75)] Información del driver:
+GL_VENDOR: NVIDIA Corporation
+GL_RENDERER: GeForce GTX 1060 6GB/PCIe/SSE2
+GL_VERSION: 4.5.0 NVIDIA 456.71
+GL_SHADING_LANGUAGE_VERSION: 4.50 NVIDIA
+Tamaño del framebuffer por defecto:
+   bits de color: (8, 8, 8, 0), depth: 0, stencil: 0
+
+[Mon Mar 21 03:11:11 2022] INF: [app.cpp (161)] Library versions
+PGUPV 64 bits Debug Revision: 2156
+Boost: 1_69
+SDL: Runtime: 2.0.8 Compiled: 2.0.8
+Assimp: 5.0.0
+GLEW: 2.2.0
+Par Shapes: http://github.prideout.net/shapes @ August 2016
+GLI: 0.8.3
+FreeImage: 3.18.0
+ImGui: 1.82
+GLM: version 0.9.9.8
+
+[Mon Mar 21 03:11:11 2022] INF: [app.cpp (421)] No se han encontrado joysticks en el sistema
+[Mon Mar 21 03:11:11 2022] INF: [shader.cpp (169)] Compilando triangles.vert
+[Mon Mar 21 03:11:11 2022] INF: [shader.cpp (169)] Compilando triangles.frag
+[Mon Mar 21 03:11:11 2022] INF: [bufferObject.cpp (41)] Buffer object 1 ha reservado 72 bytes
+[Mon Mar 21 03:11:12 2022] INF: [app.cpp (602)] Aplicación terminada normalmente
+[Mon Mar 21 03:11:12 2022] INF: [bufferObject.cpp (19)] Buffer object 1 (Vertices) destruído
+[Mon Mar 21 03:11:12 2022] INF: [app.cpp (93)] App destroyed
+[Mon Mar 21 03:11:12 2022] INF: [log.cpp (46)] Closing Log

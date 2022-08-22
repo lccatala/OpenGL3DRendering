@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <IntDir>$(SolutionDir)$(Configuration)\$(ProjectName)\</IntDir>
+    <OutDir>$(SolutionDir)bin\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(SolutionDir)librerias/SDL2/include;$(SolutionDir)librerias/glm;$(SolutionDir)librerias/glew/include;$(SolutionDir)librerias/assimp/include;$(SolutionDir)librerias/boost;$(SolutionDir)PGUPV/include;$(SolutionDir)librerias/FreeImage/Dist/x64;$(SolutionDir)librerias/GSL/include</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>GLEW_STATIC;IMGUI_IMPL_OPENGL_LOADER_GLEW;_VARIADIC_MAX=10;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>$(SolutionDir)lib/$(Configuration)/;$(SolutionDir)librerias/SDL2/lib/$(PlatformTarget);$(SolutionDir)librerias/assimp/lib;$(SolutionDir)librerias/SDL2_ttf/lib/$(PlatformTarget);$(SolutionDir)librerias/FreeImage/Dist/$(PlatformTarget);$(SolutionDir)librerias/ffmpeg/lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>guipg.lib;PGUPV.lib;SDL2main.lib;SDL2.lib;opengl32.lib;assimp-vc142-mt.lib;FreeImage.lib;SDL2_ttf.lib;avcodec.lib;avformat.lib;avutil.lib;avdevice.lib;avfilter.lib;postproc.lib;swresample.lib;swscale.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup />
+</Project>

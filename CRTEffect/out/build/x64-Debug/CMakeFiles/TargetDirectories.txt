@@ -1,0 +1,6 @@
+C:/Users/alpas/Desktop/practPG/CRTEffect/out/build/x64-Debug/CMakeFiles/CRTEffect.dir
+C:/Users/alpas/Desktop/practPG/CRTEffect/out/build/x64-Debug/CMakeFiles/edit_cache.dir
+C:/Users/alpas/Desktop/practPG/CRTEffect/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir
+C:/Users/alpas/Desktop/practPG/CRTEffect/out/build/x64-Debug/CMakeFiles/list_install_components.dir
+C:/Users/alpas/Desktop/practPG/CRTEffect/out/build/x64-Debug/CMakeFiles/install.dir
+C:/Users/alpas/Desktop/practPG/CRTEffect/out/build/x64-Debug/CMakeFiles/install/local.dir

@@ -1,0 +1,86 @@
+﻿Prácticas de Programación Gráfica
+Master en Inteligencia Artificial, Reconocimiento de Formas e Imagen Digital
+Depto. Sistemas Informáticos y Computación
+
+Paco Abad. fjabad@dsic.upv.es
+
+Instrucciones de uso:
+
+* Si encuentras que las instrucciones siguientes están incompletas, desfasadas o erróneas para tu plataforma, por favor, añade las instrucciones que consideres y mándame la nueva version. *
+
+
+Windows
+-------
+
+* Requisitos:
+Sólo necesitas tener instalado el Visual Studio 2019 (como alumno de la UPV lo puedes bajar desde http://www.upv.es/id/181)
+Es *muy* importante actualizar el driver de la tarjeta gráfica de tu ordenador, para asegurarte de tener acceso a toda la capacidad del hardware.
+
+* Prácticas:
+El paquete de las prácticas contiene todas las bibliotecas necesarias, y sólo tendrás que abrir el fichero pract-pg.sln en el Visual Studio para ejecutar los ejemplos y realizar las prácticas.
+
+Durante la ejecución de las prácticas se pueden producir excepciones como respuesta a errores. Si quieres que el depurador se detenga en la línea que ha generado la excepción para poder ver el estado de la aplicación en ese momento, en Visual Studio debes:
+1. Selecciona la opción Depurar\Ventanas\Configuración de excepciones
+2. En el panel que aparece, botón derecho en el apartado "C++ Exceptions", y pulsa en Agregar
+3. Añade a la lista la opción std::runtime_error
+
+
+Si quieres utilizar otro compilador en Windows, puedes usar los ficheros de CMake proporcionados para generar los proyectos necesarios. Puedes seguir las instrucciones de las otras plataformas para usar CMake.
+
+
+Linux
+-----
+
+* Requisitos:
+
+Tendrás que instalar las siguientes dependencias:
+
+sudo apt-get install build-essential libsdl2-dev libsdl2-ttf-dev libfreeimage-dev cmake libglew-dev libboost-dev libgtk-3-dev git ffmpeg libavcodec-dev libavdevice-dev libavformat-dev libassimp-dev
+
+La versión de assimp que necesita PGUPV es, por lo menos, la 5.0.1. Puedes comprobar la versión instalada mediante:
+
+apt-cache policy libassimp-dev
+
+Si tienes una versión anterior, tendrás que instalarla a mano, siguiendo las  instrucciones que aparecen al final.
+
+Es *muy* importante actualizar el driver de la tarjeta gráfica de tu ordenador, para asegurarte de tener acceso a toda la capacidad del hardware.
+ 
+* Prácticas
+Crea un directorio llamado, por ejemplo, _build dentro del directorio de las prácticas. En una consola, entra en dicho directorio y ejecuta:
+
+cmake ..
+
+Luego, puedes ejecutar:
+
+make install
+
+Esa llamada compilará todos los ejemplos y copiará los ejecutables al directorio bin dentro del directorio de prácticas (no instala nada en el sistema).
+
+
+[Instrucciones para instalar la versión 5.0.1 de Assimp (si es necesario)]
+
+# Si hay instalada una versión anterior, desinstalarla:
+sudo apt remove libassimp-dev
+
+# Ve a algún directorio donde puedas escribir (por ejemplo, el escritorio)
+git clone --branch v5.0.1 https://github.com/assimp/assimp.git
+
+ó también puedes bajarte directamente el código fuente desde:
+
+https://github.com/assimp/assimp/archive/v5.0.1.tar.gz
+
+cd assimp
+mkdir build && cd build
+cmake .. -G 'Unix Makefiles'
+make -j4
+sudo make install
+
+añade la siguiente línea al fichero /etc/ld.so.conf:
+
+include /usr/local/lib/
+
+y después, en la consola, ejecuta:
+
+sudo ldconfig
+
+

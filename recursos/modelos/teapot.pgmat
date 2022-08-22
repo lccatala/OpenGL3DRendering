@@ -1,0 +1,22 @@
+# NODES
+# n_<3DSDummyRoot>_visible = false
+# n_3DSMesh_0_visible = false
+# n_3DSMesh_0_visible = false
+
+
+# MATERIALS
+# m_%%%DEFAULT_ambient = (0, 0, 0, 1)
+# m_%%%DEFAULT_diffuse = (0.3, 0.3, 0.3, 1)
+# m_%%%DEFAULT_specular = (0, 0, 0, 1)
+# m_%%%DEFAULT_emissive = (0, 0, 0, 1)
+# m_%%%DEFAULT_shininess = 0
+# m_%%%DEFAULT_diffusemap[0] = <texture-filename>
+# m_%%%DEFAULT_specularmap[0] = <texture-filename>
+# m_%%%DEFAULT_normalmap[0] = <texture-filename>
+# m_%%%DEFAULT_heightmap[0] = <texture-filename>
+# m_%%%DEFAULT_opacitymap[0] = <texture-filename>
+# m_%%%DEFAULT_ambientmap[0] = <texture-filename>
+
+
+
+# PBR MATERIALS

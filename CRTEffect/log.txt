@@ -1,0 +1,142 @@
+
+[Wed May 11 00:58:13 2022] INF: [app.cpp (86)] App created
+[Wed May 11 00:58:13 2022] INF: [app.cpp (106)] Iniciando aplicación C:\Users\alpas\Desktop\practPG\bin\CRTEffectd.exe
+[Wed May 11 00:58:13 2022] INF: [sdlAdapter.cpp (489)] Window Properties: DOUBLE_BUFFER 
+[Wed May 11 00:58:13 2022] INF: [sdlAdapter.cpp (491)] SDL Window flags: SDL_WINDOW_OPENGL SDL_WINDOW_SHOWN SDL_WINDOW_RESIZABLE SDL_WINDOW_INPUT_FOCUS 
+[Wed May 11 00:58:13 2022] INF: [sdlAdapter.cpp (494)] SDL Context flags: SDL_GL_CONTEXT_DEBUG_FLAG 
+[Wed May 11 00:58:13 2022] INF: [window.cpp (128)] Ventana creada. Soporte de OpenGL: GL_VERSION_4_5
+[Wed May 11 00:58:13 2022] INF: [windowBuilder.cpp (75)] Información del driver:
+GL_VENDOR: NVIDIA Corporation
+GL_RENDERER: NVIDIA GeForce GTX 1060 6GB/PCIe/SSE2
+GL_VERSION: 4.5.0 NVIDIA 511.79
+GL_SHADING_LANGUAGE_VERSION: 4.50 NVIDIA
+Tamaño del framebuffer por defecto:
+   bits de color: (8, 8, 8, 0), depth: 24, stencil: 0
+
+[Wed May 11 00:58:13 2022] INF: [app.cpp (161)] Library versions
+PGUPV 64 bits Debug TRUNK
+Boost: 1_69
+SDL: Runtime: 2.0.8 Compiled: 2.0.8
+Assimp: 5.0.0
+GLEW: 2.2.0
+Par Shapes: http://github.prideout.net/shapes @ August 2016
+GLI: 0.8.3
+FreeImage: 3.18.0
+ImGui: 1.82
+GLM: version 0.9.9.8
+
+[Wed May 11 00:58:13 2022] INF: [app.cpp (418)] No se han encontrado joysticks en el sistema
+[Wed May 11 00:58:13 2022] INF: [bufferObject.cpp (41)] Buffer object 1 ha reservado 1720 bytes
+[Wed May 11 00:58:13 2022] INF: [bufferObject.cpp (41)] Buffer object 2 ha reservado 2772 bytes
+[Wed May 11 00:58:13 2022] INF: [bufferObject.cpp (41)] Buffer object 3 ha reservado 2772 bytes
+[Wed May 11 00:58:13 2022] INF: [bufferObject.cpp (41)] Buffer object 4 ha reservado 1848 bytes
+[Wed May 11 00:58:13 2022] INF: [bufferObject.cpp (41)] Buffer object 5 ha reservado 368 bytes
+[Wed May 11 00:58:13 2022] INF: [glMatrices.cpp (160)] UBO GLMatrices creado
+[Wed May 11 00:58:13 2022] INF: [shader.cpp (169)] Compilando ../CRTEffect/textureReplace.vert
+[Wed May 11 00:58:13 2022] INF: [shader.cpp (169)] Compilando ../CRTEffect/textureReplace.frag
+[Wed May 11 00:58:13 2022] INF: [bindableTexture.cpp (42)] Textura de tipo GL_TEXTURE_2D creada con id 1
+[Wed May 11 00:58:21 2022] INF: [app.cpp (599)] Aplicación terminada normalmente
+[Wed May 11 00:58:21 2022] INF: [bufferObject.cpp (19)] Buffer object 2 (Vertices) destruído
+[Wed May 11 00:58:21 2022] INF: [bufferObject.cpp (19)] Buffer object 3 (Normales) destruído
+[Wed May 11 00:58:21 2022] INF: [bufferObject.cpp (19)] Buffer object 1 (Indices) destruído
+[Wed May 11 00:58:21 2022] INF: [bufferObject.cpp (19)] Buffer object 4 (Coord. de textura (0)) destruído
+[Wed May 11 00:58:21 2022] INF: [bindableTexture.cpp (48)] Textura con id 1 destruída
+[Wed May 11 00:58:21 2022] INF: [bufferObject.cpp (19)] Buffer object 5 (GLMatrices) destruído
+[Wed May 11 00:58:21 2022] INF: [app.cpp (93)] App destroyed
+[Wed May 11 00:58:21 2022] INF: [log.cpp (46)] Closing Log
+
+[Mon Aug 22 13:20:43 2022] INF: [app.cpp (86)] App created
+[Mon Aug 22 13:20:43 2022] INF: [app.cpp (106)] Iniciando aplicación C:\Users\alpas\Desktop\practPG\bin\CRTEffectd.exe
+[Mon Aug 22 13:20:43 2022] INF: [sdlAdapter.cpp (489)] Window Properties: DOUBLE_BUFFER 
+[Mon Aug 22 13:20:43 2022] INF: [sdlAdapter.cpp (491)] SDL Window flags: SDL_WINDOW_OPENGL SDL_WINDOW_SHOWN SDL_WINDOW_RESIZABLE SDL_WINDOW_INPUT_FOCUS SDL_WINDOW_MOUSE_FOCUS 
+[Mon Aug 22 13:20:43 2022] INF: [sdlAdapter.cpp (494)] SDL Context flags: SDL_GL_CONTEXT_DEBUG_FLAG 
+[Mon Aug 22 13:20:43 2022] INF: [window.cpp (128)] Ventana creada. Soporte de OpenGL: GL_VERSION_4_5
+[Mon Aug 22 13:20:43 2022] INF: [windowBuilder.cpp (75)] Información del driver:
+GL_VENDOR: NVIDIA Corporation
+GL_RENDERER: NVIDIA GeForce RTX 2070 SUPER/PCIe/SSE2
+GL_VERSION: 4.5.0 NVIDIA 516.01
+GL_SHADING_LANGUAGE_VERSION: 4.50 NVIDIA
+Tamaño del framebuffer por defecto:
+   bits de color: (8, 8, 8, 0), depth: 24, stencil: 0
+
+[Mon Aug 22 13:20:43 2022] INF: [app.cpp (161)] Library versions
+PGUPV 64 bits Debug TRUNK
+Boost: 1_69
+SDL: Runtime: 2.0.8 Compiled: 2.0.8
+Assimp: 5.0.0
+GLEW: 2.2.0
+Par Shapes: http://github.prideout.net/shapes @ August 2016
+GLI: 0.8.3
+FreeImage: 3.18.0
+ImGui: 1.82
+GLM: version 0.9.9.8
+
+[Mon Aug 22 13:20:43 2022] INF: [app.cpp (421)] Se han encontrado 1 joystick(s).
+[Mon Aug 22 13:20:43 2022] INF: [sdlAdapter.cpp (251)] Joystick (XInput Controller #1): 6 ejes, 11 botones, 1 hats, 0 trackballs
+[Mon Aug 22 13:20:43 2022] INF: [bufferObject.cpp (41)] Buffer object 1 ha reservado 1720 bytes
+[Mon Aug 22 13:20:43 2022] INF: [bufferObject.cpp (41)] Buffer object 2 ha reservado 2772 bytes
+[Mon Aug 22 13:20:43 2022] INF: [bufferObject.cpp (41)] Buffer object 3 ha reservado 2772 bytes
+[Mon Aug 22 13:20:43 2022] INF: [bufferObject.cpp (41)] Buffer object 4 ha reservado 1848 bytes
+[Mon Aug 22 13:20:43 2022] INF: [bufferObject.cpp (41)] Buffer object 5 ha reservado 368 bytes
+[Mon Aug 22 13:20:43 2022] INF: [glMatrices.cpp (160)] UBO GLMatrices creado
+[Mon Aug 22 13:20:43 2022] INF: [shader.cpp (169)] Compilando ../CRTEffect/textureReplace.vert
+[Mon Aug 22 13:20:43 2022] INF: [shader.cpp (169)] Compilando ../CRTEffect/textureReplace.frag
+[Mon Aug 22 13:20:43 2022] INF: [bindableTexture.cpp (42)] Textura de tipo GL_TEXTURE_2D creada con id 1
+[Mon Aug 22 13:20:46 2022] INF: [app.cpp (599)] Aplicación terminada normalmente
+[Mon Aug 22 13:20:46 2022] INF: [bufferObject.cpp (19)] Buffer object 2 (Vertices) destruído
+[Mon Aug 22 13:20:46 2022] INF: [bufferObject.cpp (19)] Buffer object 3 (Normales) destruído
+[Mon Aug 22 13:20:46 2022] INF: [bufferObject.cpp (19)] Buffer object 1 (Indices) destruído
+[Mon Aug 22 13:20:46 2022] INF: [bufferObject.cpp (19)] Buffer object 4 (Coord. de textura (0)) destruído
+[Mon Aug 22 13:20:46 2022] INF: [bindableTexture.cpp (48)] Textura con id 1 destruída
+[Mon Aug 22 13:20:46 2022] INF: [bufferObject.cpp (19)] Buffer object 5 (GLMatrices) destruído
+[Mon Aug 22 13:20:46 2022] INF: [sdlAdapter.cpp (257)] Destruyendo el joystick XInput Controller #1
+[Mon Aug 22 13:20:46 2022] INF: [app.cpp (93)] App destroyed
+[Mon Aug 22 13:20:46 2022] INF: [log.cpp (46)] Closing Log
+
+[Mon Aug 22 13:30:33 2022] INF: [app.cpp (86)] App created
+[Mon Aug 22 13:30:33 2022] INF: [app.cpp (106)] Iniciando aplicación C:\Users\alpas\Desktop\practPG\bin\CRTEffectd.exe
+[Mon Aug 22 13:30:33 2022] INF: [sdlAdapter.cpp (489)] Window Properties: DOUBLE_BUFFER 
+[Mon Aug 22 13:30:33 2022] INF: [sdlAdapter.cpp (491)] SDL Window flags: SDL_WINDOW_OPENGL SDL_WINDOW_SHOWN SDL_WINDOW_RESIZABLE SDL_WINDOW_INPUT_FOCUS 
+[Mon Aug 22 13:30:33 2022] INF: [sdlAdapter.cpp (494)] SDL Context flags: SDL_GL_CONTEXT_DEBUG_FLAG 
+[Mon Aug 22 13:30:33 2022] INF: [window.cpp (128)] Ventana creada. Soporte de OpenGL: GL_VERSION_4_5
+[Mon Aug 22 13:30:33 2022] INF: [windowBuilder.cpp (75)] Información del driver:
+GL_VENDOR: NVIDIA Corporation
+GL_RENDERER: NVIDIA GeForce RTX 2070 SUPER/PCIe/SSE2
+GL_VERSION: 4.5.0 NVIDIA 516.01
+GL_SHADING_LANGUAGE_VERSION: 4.50 NVIDIA
+Tamaño del framebuffer por defecto:
+   bits de color: (8, 8, 8, 0), depth: 24, stencil: 0
+
+[Mon Aug 22 13:30:33 2022] INF: [app.cpp (161)] Library versions
+PGUPV 64 bits Debug TRUNK
+Boost: 1_69
+SDL: Runtime: 2.0.8 Compiled: 2.0.8
+Assimp: 5.0.0
+GLEW: 2.2.0
+Par Shapes: http://github.prideout.net/shapes @ August 2016
+GLI: 0.8.3
+FreeImage: 3.18.0
+ImGui: 1.82
+GLM: version 0.9.9.8
+
+[Mon Aug 22 13:30:33 2022] INF: [app.cpp (421)] Se han encontrado 1 joystick(s).
+[Mon Aug 22 13:30:33 2022] INF: [sdlAdapter.cpp (251)] Joystick (XInput Controller #1): 6 ejes, 11 botones, 1 hats, 0 trackballs
+[Mon Aug 22 13:30:33 2022] INF: [bufferObject.cpp (41)] Buffer object 1 ha reservado 1720 bytes
+[Mon Aug 22 13:30:33 2022] INF: [bufferObject.cpp (41)] Buffer object 2 ha reservado 2772 bytes
+[Mon Aug 22 13:30:33 2022] INF: [bufferObject.cpp (41)] Buffer object 3 ha reservado 2772 bytes
+[Mon Aug 22 13:30:33 2022] INF: [bufferObject.cpp (41)] Buffer object 4 ha reservado 1848 bytes
+[Mon Aug 22 13:30:33 2022] INF: [bufferObject.cpp (41)] Buffer object 5 ha reservado 368 bytes
+[Mon Aug 22 13:30:33 2022] INF: [glMatrices.cpp (160)] UBO GLMatrices creado
+[Mon Aug 22 13:30:33 2022] INF: [shader.cpp (169)] Compilando ../CRTEffect/textureReplace.vert
+[Mon Aug 22 13:30:33 2022] INF: [shader.cpp (169)] Compilando ../CRTEffect/textureReplace.frag
+[Mon Aug 22 13:30:33 2022] INF: [bindableTexture.cpp (42)] Textura de tipo GL_TEXTURE_2D creada con id 1
+[Mon Aug 22 13:30:52 2022] INF: [app.cpp (599)] Aplicación terminada normalmente
+[Mon Aug 22 13:30:52 2022] INF: [bufferObject.cpp (19)] Buffer object 2 (Vertices) destruído
+[Mon Aug 22 13:30:52 2022] INF: [bufferObject.cpp (19)] Buffer object 3 (Normales) destruído
+[Mon Aug 22 13:30:52 2022] INF: [bufferObject.cpp (19)] Buffer object 1 (Indices) destruído
+[Mon Aug 22 13:30:52 2022] INF: [bufferObject.cpp (19)] Buffer object 4 (Coord. de textura (0)) destruído
+[Mon Aug 22 13:30:52 2022] INF: [bindableTexture.cpp (48)] Textura con id 1 destruída
+[Mon Aug 22 13:30:52 2022] INF: [bufferObject.cpp (19)] Buffer object 5 (GLMatrices) destruído
+[Mon Aug 22 13:30:52 2022] INF: [sdlAdapter.cpp (257)] Destruyendo el joystick XInput Controller #1
+[Mon Aug 22 13:30:52 2022] INF: [app.cpp (93)] App destroyed
+[Mon Aug 22 13:30:52 2022] INF: [log.cpp (46)] Closing Log

@@ -1,0 +1,396 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DebugForTesting|x64">
+      <Configuration>DebugForTesting</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="ReleaseForTesting|x64">
+      <Configuration>ReleaseForTesting</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{65BA23EE-3CA1-49F8-AC7F-29DE3915C89D}</ProjectGuid>
+    <RootNamespace>PGUPV</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='DebugForTesting|x64'">
+    <PlatformToolset>v142</PlatformToolset>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='ReleaseForTesting|x64'">
+    <PlatformToolset>v142</PlatformToolset>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="..\library.props" />
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="..\library.props" />
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='DebugForTesting|x64'">
+    <Import Project="..\library.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='ReleaseForTesting|x64'">
+    <Import Project="..\library.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>$(SolutionDir)lib/$(Configuration)/</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>$(SolutionDir)lib/$(Configuration)/</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugForTesting|x64'">
+    <OutDir>$(SolutionDir)lib/$(Configuration)/</OutDir>
+    <CodeAnalysisRuleSet>CppCoreCheckLifetimeRules.ruleset</CodeAnalysisRuleSet>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseForTesting|x64'">
+    <OutDir>$(SolutionDir)lib/$(Configuration)/</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_UNICODE;UNICODE;GLEW_STATIC;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_UNICODE;UNICODE;GLEW_STATIC;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DebugForTesting|x64'">
+    <ClCompile>
+      <PreprocessorDefinitions>_UNICODE;UNICODE;GLEW_STATIC;TESTING;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <EnablePREfast>false</EnablePREfast>
+      <Optimization>Disabled</Optimization>
+      <WarningLevel>Level4</WarningLevel>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseForTesting|x64'">
+    <ClCompile>
+      <PreprocessorDefinitions>TESTING;_UNICODE;UNICODE;GLEW_STATIC;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <WarningLevel>Level4</WarningLevel>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\librerias\glew\src\glew.c" />
+    <ClCompile Include="animationChannel.cpp" />
+    <ClCompile Include="animationClip.cpp" />
+    <ClCompile Include="animationNode.cpp" />
+    <ClCompile Include="animatorController.cpp" />
+    <ClCompile Include="app.cpp" />
+    <ClCompile Include="baseRenderer.cpp" />
+    <ClCompile Include="bindableTexture.cpp" />
+    <ClCompile Include="bindingPoint.cpp" />
+    <ClCompile Include="bone.cpp" />
+    <ClCompile Include="boundingVolumes.cpp" />
+    <ClCompile Include="bufferObject.cpp" />
+    <ClCompile Include="bufferRenderer.cpp" />
+    <ClCompile Include="bufferTexture.cpp" />
+    <ClCompile Include="button.cpp" />
+    <ClCompile Include="camera.cpp" />
+    <ClCompile Include="cameraHandler.cpp" />
+    <ClCompile Include="checkBoxWidget.cpp" />
+    <ClCompile Include="colorWheel.cpp" />
+    <ClCompile Include="colorWidget.cpp" />
+    <ClCompile Include="commandLineProcessor.cpp" />
+    <ClCompile Include="commonDialogs.cpp" />
+    <ClCompile Include="describeScenegraph.cpp" />
+    <ClCompile Include="directionWidget.cpp" />
+    <ClCompile Include="drawCommand.cpp" />
+    <ClCompile Include="eventProcessor.cpp" />
+    <ClCompile Include="events.cpp" />
+    <ClCompile Include="eventSource.cpp" />
+    <ClCompile Include="fbo.cpp" />
+    <ClCompile Include="fileChooserWidget.cpp" />
+    <ClCompile Include="fileStats.cpp" />
+    <ClCompile Include="findNodeByName.cpp" />
+    <ClCompile Include="floatSliderWidget.cpp" />
+    <ClCompile Include="font.cpp" />
+    <ClCompile Include="gamepad.cpp" />
+    <ClCompile Include="geode.cpp" />
+    <ClCompile Include="glMatrices.cpp" />
+    <ClCompile Include="glslInfo.cpp" />
+    <ClCompile Include="glStateCache.cpp" />
+    <ClCompile Include="glStats.cpp" />
+    <ClCompile Include="glVersion.cpp" />
+    <ClCompile Include="group.cpp" />
+    <ClCompile Include="hacks.cpp" />
+    <ClCompile Include="hBox.cpp" />
+    <ClCompile Include="image.cpp" />
+    <ClCompile Include="indexedBindingPoint.cpp" />
+    <ClCompile Include="interpolators.cpp" />
+    <ClCompile Include="intervals.cpp" />
+    <ClCompile Include="intInputWidget.cpp" />
+    <ClCompile Include="intSliderWidget.cpp" />
+    <ClCompile Include="intWidget.cpp" />
+    <ClCompile Include="ivecInputWidget.cpp" />
+    <ClCompile Include="ivecSliderWidget.cpp" />
+    <ClCompile Include="keyboard.cpp" />
+    <ClCompile Include="label.cpp" />
+    <ClCompile Include="lifetimeManager.cpp" />
+    <ClCompile Include="lineChartWidget.cpp" />
+    <ClCompile Include="listBoxWidget.cpp" />
+    <ClCompile Include="log.cpp" />
+    <ClCompile Include="material.cpp" />
+    <ClCompile Include="matrixStack.cpp" />
+    <ClCompile Include="media.cpp" />
+    <ClCompile Include="mesh.cpp" />
+    <ClCompile Include="model.cpp" />
+    <ClCompile Include="fileLoader.cpp" />
+    <ClCompile Include="multiListBoxWidget.cpp" />
+    <ClCompile Include="node.cpp" />
+    <ClCompile Include="outputStreamStats.cpp" />
+    <ClCompile Include="panel.cpp" />
+    <ClCompile Include="pbrMaterial.cpp" />
+    <ClCompile Include="picker.cpp" />
+    <ClCompile Include="pingPongBuffers.cpp" />
+    <ClCompile Include="program.cpp" />
+    <ClCompile Include="progressBar.cpp" />
+    <ClCompile Include="properties.cpp" />
+    <ClCompile Include="query.cpp" />
+    <ClCompile Include="rbo.cpp" />
+    <ClCompile Include="renderable.cpp" />
+    <ClCompile Include="renderBoundingVolumes.cpp" />
+    <ClCompile Include="renderHelpers.cpp" />
+    <ClCompile Include="rotationWidget.cpp" />
+    <ClCompile Include="scene.cpp" />
+    <ClCompile Include="assimpWrapper.cpp" />
+    <ClCompile Include="scenegraphEditor.cpp" />
+    <ClCompile Include="sdlAdapter.cpp" />
+    <ClCompile Include="separator.cpp" />
+    <ClCompile Include="shader.cpp" />
+    <ClCompile Include="shaderLibrary.cpp" />
+    <ClCompile Include="skeleton.cpp" />
+    <ClCompile Include="stockMaterials.cpp" />
+    <ClCompile Include="stockModels.cpp" />
+    <ClCompile Include="stockModels2.cpp" />
+    <ClCompile Include="stockPrograms.cpp" />
+    <ClCompile Include="stopWatch.cpp" />
+    <ClCompile Include="surfaceRevolutionGenerator.cpp" />
+    <ClCompile Include="textOverlay.cpp" />
+    <ClCompile Include="texture.cpp" />
+    <ClCompile Include="texture1D.cpp" />
+    <ClCompile Include="texture2DGeneric.cpp" />
+    <ClCompile Include="texture3DGeneric.cpp" />
+    <ClCompile Include="textureCubeMap.cpp" />
+    <ClCompile Include="textureGenerator.cpp" />
+    <ClCompile Include="textureText.cpp" />
+    <ClCompile Include="textureVideo.cpp" />
+    <ClCompile Include="transform.cpp" />
+    <ClCompile Include="transformFeedbackObject.cpp" />
+    <ClCompile Include="treeWidget.cpp" />
+    <ClCompile Include="uboBones.cpp" />
+    <ClCompile Include="uboLightSources.cpp" />
+    <ClCompile Include="uboMaterial.cpp" />
+    <ClCompile Include="uboPBRLightSources.cpp" />
+    <ClCompile Include="uboPBRMaterial.cpp" />
+    <ClCompile Include="utils.cpp" />
+    <ClCompile Include="vecSliderWidget.cpp" />
+    <ClCompile Include="vertexArrayObject.cpp" />
+    <ClCompile Include="videoDevice.cpp" />
+    <ClCompile Include="videoFile.cpp" />
+    <ClCompile Include="viewportRenderer.cpp" />
+    <ClCompile Include="widget.cpp" />
+    <ClCompile Include="window.cpp" />
+    <ClCompile Include="windowBuilder.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\animationChannel.h" />
+    <ClInclude Include="include\animationClip.h" />
+    <ClInclude Include="include\animationNode.h" />
+    <ClInclude Include="include\animatorController.h" />
+    <ClInclude Include="include\app.h" />
+    <ClInclude Include="include\baseRenderer.h" />
+    <ClInclude Include="include\bindableTexture.h" />
+    <ClInclude Include="include\bindingPoint.h" />
+    <ClInclude Include="include\bone.h" />
+    <ClInclude Include="include\boundingVolumes.h" />
+    <ClInclude Include="include\bufferObject.h" />
+    <ClInclude Include="include\bufferRenderer.h" />
+    <ClInclude Include="include\bufferTexture.h" />
+    <ClInclude Include="include\button.h" />
+    <ClInclude Include="include\camera.h" />
+    <ClInclude Include="include\camerahandler.h" />
+    <ClInclude Include="include\checkBoxWidget.h" />
+    <ClInclude Include="include\colorWheel.h" />
+    <ClInclude Include="include\colorWidget.h" />
+    <ClInclude Include="include\commandLineProcessor.h" />
+    <ClInclude Include="include\common.h" />
+    <ClInclude Include="include\commonDialogs.h" />
+    <ClInclude Include="include\describeScenegraph.h" />
+    <ClInclude Include="include\directionWidget.h" />
+    <ClInclude Include="include\drawCommand.h" />
+    <ClInclude Include="include\eventProcessor.h" />
+    <ClInclude Include="include\events.h" />
+    <ClInclude Include="include\eventSource.h" />
+    <ClInclude Include="include\fbo.h" />
+    <ClInclude Include="include\fileChooserWidget.h" />
+    <ClInclude Include="include\fileFormats.h" />
+    <ClInclude Include="include\fileStats.h" />
+    <ClInclude Include="include\findNodeByName.h" />
+    <ClInclude Include="include\floatSliderWidget.h" />
+    <ClInclude Include="include\font.h" />
+    <ClInclude Include="include\gamepad.h" />
+    <ClInclude Include="include\geode.h" />
+    <ClInclude Include="include\glMatrices.h" />
+    <ClInclude Include="include\glQuery.h" />
+    <ClInclude Include="include\glslInfo.h" />
+    <ClInclude Include="include\glStateCache.h" />
+    <ClInclude Include="include\glStats.h" />
+    <ClInclude Include="include\glVersion.h" />
+    <ClInclude Include="include\group.h" />
+    <ClInclude Include="include\groupWidget.h" />
+    <ClInclude Include="include\GUI3.h" />
+    <ClInclude Include="include\hacks.h" />
+    <ClInclude Include="include\hbox.h" />
+    <ClInclude Include="include\HW.h" />
+    <ClInclude Include="include\image.h" />
+    <ClInclude Include="include\indexedBindingPoint.h" />
+    <ClInclude Include="include\interpolators.h" />
+    <ClInclude Include="include\intervals.h" />
+    <ClInclude Include="include\intInputWidget.h" />
+    <ClInclude Include="include\intSliderWidget.h" />
+    <ClInclude Include="include\intWidget.h" />
+    <ClInclude Include="include\ivecInputWidget.h" />
+    <ClInclude Include="include\ivecSliderWidget.h" />
+    <ClInclude Include="include\keyboard.h" />
+    <ClInclude Include="include\label.h" />
+    <ClInclude Include="include\lifetimeManager.h" />
+    <ClInclude Include="include\lightSourceWidget.h" />
+    <ClInclude Include="include\lineChartWidget.h" />
+    <ClInclude Include="include\listBoxWidget.h" />
+    <ClInclude Include="include\log.h" />
+    <ClInclude Include="include\baseMaterial.h" />
+    <ClInclude Include="include\matrixStack.h" />
+    <ClInclude Include="include\media.h" />
+    <ClInclude Include="include\mesh.h" />
+    <ClInclude Include="include\model.h" />
+    <ClInclude Include="include\fileLoader.h" />
+    <ClInclude Include="include\multiListBoxWidget.h" />
+    <ClInclude Include="include\node.h" />
+    <ClInclude Include="include\nodeCallback.h" />
+    <ClInclude Include="include\nodeVisitor.h" />
+    <ClInclude Include="include\observable.h" />
+    <ClInclude Include="include\outputStreamStats.h" />
+    <ClInclude Include="include\palette.h" />
+    <ClInclude Include="include\panel.h" />
+    <ClInclude Include="include\pbrLightSourceWidget.h" />
+    <ClInclude Include="include\pbrMaterial.h" />
+    <ClInclude Include="include\PGUPV.h" />
+    <ClInclude Include="include\material.h" />
+    <ClInclude Include="include\pingPongBuffers.h" />
+    <ClInclude Include="include\program.h" />
+    <ClInclude Include="include\progressBar.h" />
+    <ClInclude Include="include\properties.h" />
+    <ClInclude Include="include\query.h" />
+    <ClInclude Include="include\rbo.h" />
+    <ClInclude Include="include\renderable.h" />
+    <ClInclude Include="include\renderBoundingVolumes.h" />
+    <ClInclude Include="include\renderer.h" />
+    <ClInclude Include="include\rotationWidget.h" />
+    <ClInclude Include="include\scene.h" />
+    <ClInclude Include="include\assimpWrapper.h" />
+    <ClInclude Include="include\sceneGraphEditor.h" />
+    <ClInclude Include="include\separator.h" />
+    <ClInclude Include="include\shader.h" />
+    <ClInclude Include="include\shaderLibrary.h" />
+    <ClInclude Include="include\skeleton.h" />
+    <ClInclude Include="include\statsClass.h" />
+    <ClInclude Include="include\stockMaterials.h" />
+    <ClInclude Include="include\stockModels.h" />
+    <ClInclude Include="include\stockModels2.h" />
+    <ClInclude Include="include\stockPrograms.h" />
+    <ClInclude Include="include\stopWatch.h" />
+    <ClInclude Include="include\surfaceRevolutionGenerator.h" />
+    <ClInclude Include="include\textOverlay.h" />
+    <ClInclude Include="include\texture.h" />
+    <ClInclude Include="include\texture1D.h" />
+    <ClInclude Include="include\texture2D.h" />
+    <ClInclude Include="include\texture2DArray.h" />
+    <ClInclude Include="include\texture2DGeneric.h" />
+    <ClInclude Include="include\texture3DGeneric.h" />
+    <ClInclude Include="include\textureCubeMap.h" />
+    <ClInclude Include="include\textureGenerator.h" />
+    <ClInclude Include="include\textureRectangle.h" />
+    <ClInclude Include="include\textureText.h" />
+    <ClInclude Include="include\textureVideo.h" />
+    <ClInclude Include="include\transform.h" />
+    <ClInclude Include="include\transformationWidget.h" />
+    <ClInclude Include="include\transformFeedbackObject.h" />
+    <ClInclude Include="include\treeNodeFlags.h" />
+    <ClInclude Include="include\treeWidget.h" />
+    <ClInclude Include="include\uboBones.h" />
+    <ClInclude Include="include\uboLightSources.h" />
+    <ClInclude Include="include\uboMaterial.h" />
+    <ClInclude Include="include\uboPBRLightSources.h" />
+    <ClInclude Include="include\uboPBRMaterial.h" />
+    <ClInclude Include="include\uniformBufferObject.h" />
+    <ClInclude Include="include\uniformWriter.h" />
+    <ClInclude Include="include\updateVisitor.h" />
+    <ClInclude Include="include\utils.h" />
+    <ClInclude Include="include\value.h" />
+    <ClInclude Include="include\vecSliderWidget.h" />
+    <ClInclude Include="include\vertexArrayObject.h" />
+    <ClInclude Include="include\videoDevice.h" />
+    <ClInclude Include="include\videoFile.h" />
+    <ClInclude Include="include\viewportRenderer.h" />
+    <ClInclude Include="include\widget.h" />
+    <ClInclude Include="include\window.h" />
+    <ClInclude Include="include\windowBuilder.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

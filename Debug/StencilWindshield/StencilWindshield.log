@@ -1,0 +1,5 @@
+﻿  main.cpp
+C:\Users\alpas\Desktop\practPG\StencilWindshield\main.cpp(139,77): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+C:\Users\alpas\Desktop\practPG\StencilWindshield\main.cpp(208,38): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\alpas\Desktop\practPG\StencilWindshield\main.cpp(357,42): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  StencilWindshield.vcxproj -> C:\Users\alpas\Desktop\practPG\bin\StencilWindshieldd.exe

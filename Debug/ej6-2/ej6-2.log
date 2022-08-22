@@ -1,0 +1,14 @@
+﻿  main.cpp
+guipg.lib(guipg.obj) : warning LNK4099: PDB 'guipg.pdb' was not found with 'guipg.lib(guipg.obj)' or at 'C:\Users\alpas\Desktop\practPG\bin\guipg.pdb'; linking object as if no debug info
+guipg.lib(logConsole.obj) : warning LNK4099: PDB 'guipg.pdb' was not found with 'guipg.lib(logConsole.obj)' or at 'C:\Users\alpas\Desktop\practPG\bin\guipg.pdb'; linking object as if no debug info
+guipg.lib(imgui.obj) : warning LNK4099: PDB 'guipg.pdb' was not found with 'guipg.lib(imgui.obj)' or at 'C:\Users\alpas\Desktop\practPG\bin\guipg.pdb'; linking object as if no debug info
+guipg.lib(imgui_draw.obj) : warning LNK4099: PDB 'guipg.pdb' was not found with 'guipg.lib(imgui_draw.obj)' or at 'C:\Users\alpas\Desktop\practPG\bin\guipg.pdb'; linking object as if no debug info
+guipg.lib(imgui_widgets.obj) : warning LNK4099: PDB 'guipg.pdb' was not found with 'guipg.lib(imgui_widgets.obj)' or at 'C:\Users\alpas\Desktop\practPG\bin\guipg.pdb'; linking object as if no debug info
+guipg.lib(imgui_impl_sdl.obj) : warning LNK4099: PDB 'guipg.pdb' was not found with 'guipg.lib(imgui_impl_sdl.obj)' or at 'C:\Users\alpas\Desktop\practPG\bin\guipg.pdb'; linking object as if no debug info
+guipg.lib(imgui_impl_opengl3.obj) : warning LNK4099: PDB 'guipg.pdb' was not found with 'guipg.lib(imgui_impl_opengl3.obj)' or at 'C:\Users\alpas\Desktop\practPG\bin\guipg.pdb'; linking object as if no debug info
+guipg.lib(imGuIZMOquat.obj) : warning LNK4099: PDB 'guipg.pdb' was not found with 'guipg.lib(imGuIZMOquat.obj)' or at 'C:\Users\alpas\Desktop\practPG\bin\guipg.pdb'; linking object as if no debug info
+guipg.lib(nfd_win.obj) : warning LNK4099: PDB 'guipg.pdb' was not found with 'guipg.lib(nfd_win.obj)' or at 'C:\Users\alpas\Desktop\practPG\bin\guipg.pdb'; linking object as if no debug info
+guipg.lib(nfd_common.obj) : warning LNK4099: PDB 'guipg.pdb' was not found with 'guipg.lib(nfd_common.obj)' or at 'C:\Users\alpas\Desktop\practPG\bin\guipg.pdb'; linking object as if no debug info
+guipg.lib(imgui_tables.obj) : warning LNK4099: PDB 'guipg.pdb' was not found with 'guipg.lib(imgui_tables.obj)' or at 'C:\Users\alpas\Desktop\practPG\bin\guipg.pdb'; linking object as if no debug info
+     Creating library C:\Users\alpas\Desktop\practPG\bin\ej6-2d.lib and object C:\Users\alpas\Desktop\practPG\bin\ej6-2d.exp
+  ej6-2.vcxproj -> C:\Users\alpas\Desktop\practPG\bin\ej6-2d.exe

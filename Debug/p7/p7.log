@@ -1,0 +1,5 @@
+﻿  main.cpp
+guipg.lib(imgui_widgets.obj) : warning LNK4099: PDB 'guipg.pdb' was not found with 'guipg.lib(imgui_widgets.obj)' or at 'C:\Users\alpas\Desktop\practPG\bin\guipg.pdb'; linking object as if no debug info
+guipg.lib(guipg.obj) : warning LNK4099: PDB 'guipg.pdb' was not found with 'guipg.lib(guipg.obj)' or at 'C:\Users\alpas\Desktop\practPG\bin\guipg.pdb'; linking object as if no debug info
+guipg.lib(imGuIZMOquat.obj) : warning LNK4099: PDB 'guipg.pdb' was not found with 'guipg.lib(imGuIZMOquat.obj)' or at 'C:\Users\alpas\Desktop\practPG\bin\guipg.pdb'; linking object as if no debug info
+  p7.vcxproj -> C:\Users\alpas\Desktop\practPG\bin\p7d.exe
